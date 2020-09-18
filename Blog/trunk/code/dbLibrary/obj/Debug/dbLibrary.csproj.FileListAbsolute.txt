@@ -200,3 +200,40 @@ F:\★1工程项目训练\_MVC5开发框架 - 4.5框架\_MVC5开发框架 - 4.5�
 F:\★1工程项目训练\_MVC5开发框架 - 4.5框架\_MVC5开发框架 - 4.5框架\trunk\code\dbLibrary\obj\Debug\dbLibrary.csprojResolveAssemblyReference.cache
 F:\★1工程项目训练\_MVC5开发框架 - 4.5框架\_MVC5开发框架 - 4.5框架\trunk\code\dbLibrary\obj\Debug\dbLibrary.dll
 F:\★1工程项目训练\_MVC5开发框架 - 4.5框架\_MVC5开发框架 - 4.5框架\trunk\code\dbLibrary\obj\Debug\dbLibrary.pdb
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\dbLibrary.dll.config
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\dbLibrary.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\dbLibrary.pdb
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\Aspose.Cells.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\Aspose.Words.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\Dapper.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\LitJson.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\NLog.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\ruiLibrary.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\System.Web.WebPages.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\IntelliLock.Licensing.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\itextsharp.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\Gma.QrCodeNet.Encoding.Net35.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\BarcodeLib.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\Aspose.Cells.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\Aspose.Words.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\Dapper.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\ruiLibrary.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\System.Web.Mvc.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\System.Web.WebPages.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\obj\Debug\dbLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\obj\Debug\dbLibrary.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\obj\Debug\dbLibrary.pdb

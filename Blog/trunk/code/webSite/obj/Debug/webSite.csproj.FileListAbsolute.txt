@@ -258,3 +258,39 @@ F:\★1工程项目训练\_MVC5开发框架 - 4.5框架\_MVC5开发框架 - 4.5�
 F:\★1工程项目训练\_MVC5开发框架 - 4.5框架\_MVC5开发框架 - 4.5框架\trunk\code\WebSite\obj\Debug\webSite.csprojResolveAssemblyReference.cache
 F:\★1工程项目训练\_MVC5开发框架 - 4.5框架\_MVC5开发框架 - 4.5框架\trunk\code\WebSite\obj\Debug\webSite.dll
 F:\★1工程项目训练\_MVC5开发框架 - 4.5框架\_MVC5开发框架 - 4.5框架\trunk\code\WebSite\obj\Debug\webSite.pdb
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\webSite.dll.config
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\webSite.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\webSite.pdb
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Dapper.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\dbLibrary.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\EntityFramework.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\IntelliLock.Licensing.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\NLog.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\ruiLibrary.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\WebGrease.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\LitJson.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Aspose.Words.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Aspose.Cells.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\itextsharp.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Gma.QrCodeNet.Encoding.Net35.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\BarcodeLib.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\dbLibrary.pdb
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Dapper.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\EntityFramework.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\ruiLibrary.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Aspose.Words.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\Aspose.Cells.xml
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\obj\Debug\webSite.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\obj\Debug\webSite.dll
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\WebSite\obj\Debug\webSite.pdb
