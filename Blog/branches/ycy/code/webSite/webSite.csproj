@@ -1117,7 +1117,9 @@
     <Content Include="upload\preview\rbac_Resource\2019\0315091434\index.html" />
     <Content Include="upload\preview\rbac_Resource\2019\0315092133\index.html" />
     <Content Include="upload\preview\rbac_Resource\2019\0315094634\index.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
