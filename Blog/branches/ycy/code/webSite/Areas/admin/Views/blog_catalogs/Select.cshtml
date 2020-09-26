@@ -20,10 +20,10 @@
 }
 @{ string ctrl = ViewContext.RouteData.Values["controller"].ToString(); }
 <div class="container" id="container" data-width="@Model.PageWidth" data-url="/admin/bks_BookType/select">
-    <div class="search">
+    @*<div class="search">
         <span>图书类型编码：@Html.TextBoxFor(a => a.Id)</span>
         <span>图书类型名称：@Html.TextBoxFor(a => a.Name)</span>
-    </div>
+    </div>*@
     <div class="toolbar">
         <a class="opSearch">查询</a>
         @Html.ActionLink("新增", "Insert", new { }, new { data_show = rui.privCtl.isPriv(ctrl, rui.privCtl.eOp.Insert), @class = "showDialogR opInsert" })
