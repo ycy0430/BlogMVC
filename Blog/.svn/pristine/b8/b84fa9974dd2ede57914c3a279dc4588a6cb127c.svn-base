@@ -1,0 +1,55 @@
+﻿@{
+    var config = ViewBag.Config as web.ViewsModels.BlogConfig;
+}
+<!--done-->
+<div class="newsItem">
+    <h3 class="catListTitle">公告</h3>
+    <div id="blog-news">
+        <div id="profile_block">@config.Notic</div>
+    </div>
+    <script type="text/javascript">loadBlogNews();</script>
+</div>
+
+<div id="leftcontentcontainer">
+    <div id="blog-sidecolumn">
+        <div id="sidebar_search" class="sidebar-block">
+            <div id="sidebar_search" class="mySearch">
+                <h3 class="catListTitle">搜索</h3>
+                <div id="sidebar_search_box">
+                    <div id="widget_my_zzk" class="div_my_zzk" style="padding-bottom:15px;">
+                        <input id="q" onkeydown="return zzk_go_enter(event);" class="input_my_zzk" type="text">&nbsp;<input onclick="zzk_go()" value="找找看" id="btnZzk" class="btn_my_zzk" type="button">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sidebar_recentposts" class="sidebar-block">
+            <div class="catListEssay">
+                <h3 class="catListTitle">最新随笔</h3>
+                <ul>
+                    <li><a href="http://wycy.site/posts/50945/">1. flex伸缩布局案例-携程移动端首页</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="sidebar_topviewedposts" class="sidebar-block">
+            <div id="topview_posts_wrap">
+                <div class="catListView">
+                    <h3 class="catListTitle">阅读排行榜</h3>
+                    <div id="TopViewPostsBlock"><ul><li><a href="http://wycy.site/posts/46667/">1. 初识HTTP</a></li><li><a href="http://wycy.site/posts/45468/">2. 【HTML+CSS】高仿百度首页</a></li></ul></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sidebar_topdiggedposts" class="sidebar-block">
+            <div id="topdigg_posts_wrap">
+                <div class="catListView">
+                    <h3 class="catListTitle">推荐排行榜</h3>
+                    <div id="TopDiggPostsBlock"><ul><li><a href="http://wycy.site/posts/57655/">1. 流式布局案例-移动端京东首页</a></li><li><a href="http://wycy.site/posts/18448/">2. rem布局+less 两种方式制作苏宁移动端首页</a></li></ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">loadBlogSideColumn();</script>
+</div>

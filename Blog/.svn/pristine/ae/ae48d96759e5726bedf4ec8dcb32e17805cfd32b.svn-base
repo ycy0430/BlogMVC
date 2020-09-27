@@ -1,0 +1,320 @@
+2020-09-23 12:18:45.6864 Info sys_Home-index 
+2020-09-23 12:18:46.4257 Info sys_Home-desktop 
+2020-09-23 12:18:48.2739 Info blog_blog-Config 
+2020-09-23 12:21:46.8840 Info sys_Home-desktop 
+2020-09-23 12:21:53.1663 Info sys_Home-index 
+2020-09-23 12:21:53.2476 Info sys_Home-desktop 
+2020-09-23 12:21:53.9288 Info blog_blog-Config 
+2020-09-23 12:21:57.1361 Info blog_blog-config 
+2020-09-23 12:24:53.3217 Info sys_Home-desktop 
+2020-09-23 12:27:53.4355 Info sys_Home-desktop 
+2020-09-23 12:30:53.5190 Info sys_Home-desktop 
+2020-09-23 12:46:40.9436 Info blog_blog-CatalogAdd 
+2020-09-23 12:46:47.8651 Info sys_Home-index 
+2020-09-23 12:46:48.5419 Info sys_Home-desktop 
+2020-09-23 12:46:50.5426 Info rbac_Module-select 
+2020-09-23 12:46:51.1979 Info rbac_Module-select 
+2020-09-23 12:46:52.2405 Info rbac_Resource-select 
+2020-09-23 12:46:59.4843 Info rbac_Resource-Update 
+2020-09-23 12:47:00.3769 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 12:47:00.6851 Info sys_BillAttach-SelectPartial 
+2020-09-23 12:47:08.1441 Info rbac_Resource-select 
+2020-09-23 12:47:09.8202 Info rbac_Resource-Insert 
+2020-09-23 12:48:10.4487 Info rbac_Resource-Insert 
+2020-09-23 12:48:10.6881 Info rbac_Resource-Update 
+2020-09-23 12:48:10.7040 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 12:48:10.7120 Info sys_BillAttach-SelectPartial 
+2020-09-23 12:48:13.1273 Info sys_Home-index 
+2020-09-23 12:48:13.2270 Info sys_Home-desktop 
+2020-09-23 12:48:14.0215 Info blog_blog-CatalogAdd 
+2020-09-23 12:48:15.5578 Info blog_blog-Config 
+2020-09-23 12:48:17.6988 Info blog_blog-CatalogAdd 
+2020-09-23 12:48:51.4701 Info sys_Home-index 
+2020-09-23 12:48:51.5649 Info sys_Home-desktop 
+2020-09-23 12:48:52.1423 Info blog_blog-CatalogAdd 
+2020-09-23 12:48:55.4733 Info blog_blog-catalogadd 
+2020-09-23 13:18:05.9565 Info sys_Home-index 
+2020-09-23 13:18:06.6723 Info sys_Home-desktop 
+2020-09-23 13:18:08.0305 Info blog_blog-CatalogAdd 
+2020-09-23 13:18:10.3895 Info rbac_Resource-select 
+2020-09-23 13:18:15.8928 Info rbac_Resource-Update 
+2020-09-23 13:18:16.7709 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 13:18:17.0841 Info sys_BillAttach-SelectPartial 
+2020-09-23 13:18:22.7089 Info rbac_Resource-select 
+2020-09-23 13:18:25.5523 Info rbac_Resource-Insert 
+2020-09-23 13:19:30.3443 Info rbac_Resource-Insert 
+2020-09-23 13:19:30.5548 Info rbac_Resource-Update 
+2020-09-23 13:19:30.5747 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 13:19:30.5797 Info sys_BillAttach-SelectPartial 
+2020-09-23 13:20:14.2059 Info rbac_Resource-Update 
+2020-09-23 13:20:14.2508 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 13:20:18.2394 Info sys_Home-index 
+2020-09-23 13:20:18.3441 Info sys_Home-desktop 
+2020-09-23 13:20:19.2338 Info blog_blog-CatalogManage 
+2020-09-23 13:21:20.7679 Info blog_blog-CatalogAdd 
+2020-09-23 13:21:24.5855 Info blog_blog-catalogadd 
+2020-09-23 13:21:26.2725 Info blog_blog-CatalogManage 
+2020-09-23 13:21:32.4479 Info blog_blog-CatalogAdd 
+2020-09-23 13:23:18.4140 Info sys_Home-desktop 
+2020-09-23 13:26:18.4716 Info sys_Home-desktop 
+2020-09-23 13:27:35.3510 Info sys_Home-index 
+2020-09-23 13:27:35.4398 Info sys_Home-desktop 
+2020-09-23 13:27:37.1645 Info blog_blog-CatalogManage 
+2020-09-23 13:27:37.5290 Info blog_blog-LoadCatalog 
+2020-09-23 13:28:09.8425 Info sys_Home-index 
+2020-09-23 13:28:09.9233 Info sys_Home-desktop 
+2020-09-23 13:29:29.4045 Info sys_Home-index 
+2020-09-23 13:29:29.4843 Info sys_Home-desktop 
+2020-09-23 13:29:30.1481 Info blog_blog-CatalogManage 
+2020-09-23 13:29:30.5410 Info blog_blog-LoadCatalog 
+2020-09-23 13:30:26.4267 Info blog_blog-CatalogManage 
+2020-09-23 13:30:26.5195 Info blog_blog-LoadCatalog 
+2020-09-23 13:31:02.4500 Info sys_Home-index 
+2020-09-23 13:31:02.5347 Info sys_Home-desktop 
+2020-09-23 13:31:03.2548 Info blog_blog-CatalogManage 
+2020-09-23 13:31:03.7119 Info blog_blog-LoadCatalog 
+2020-09-23 13:34:02.6057 Info sys_Home-desktop 
+2020-09-23 13:34:38.5247 Info sys_Home-index 
+2020-09-23 13:34:38.6244 Info sys_Home-desktop 
+2020-09-23 13:34:39.3056 Info blog_blog-CatalogManage 
+2020-09-23 13:34:39.6871 Info blog_blog-LoadCatalog 
+2020-09-23 13:35:06.1547 Info blog_blog-CatalogManage 
+2020-09-23 13:35:06.2445 Info blog_blog-LoadCatalog 
+2020-09-23 13:37:38.7090 Info sys_Home-desktop 
+2020-09-23 13:40:01.5396 Info sys_Home-index 
+2020-09-23 13:40:07.6124 Info sys_Home-index 
+2020-09-23 13:40:07.7041 Info sys_Home-desktop 
+2020-09-23 13:40:08.9219 Info blog_blog-CatalogManage 
+2020-09-23 13:40:08.9997 Info blog_blog-LoadCatalog 
+2020-09-23 13:40:16.2875 Info blog_blog-CatalogManage 
+2020-09-23 13:40:16.3663 Info blog_blog-LoadCatalog 
+2020-09-23 13:43:07.7907 Info sys_Home-desktop 
+2020-09-23 13:46:07.8440 Info sys_Home-desktop 
+2020-09-23 13:49:07.8931 Info sys_Home-desktop 
+2020-09-23 13:52:07.9615 Info sys_Home-desktop 
+2020-09-23 13:55:08.0193 Info sys_Home-desktop 
+2020-09-23 13:58:08.0766 Info sys_Home-desktop 
+2020-09-23 14:01:08.5611 Info sys_Home-desktop 
+2020-09-23 14:07:58.0926 Info sys_Home-index 
+2020-09-23 14:07:58.2173 Info sys_Home-desktop 
+2020-09-23 14:08:00.0153 Info blog_blog-CatalogManage 
+2020-09-23 14:08:00.1152 Info blog_blog-LoadCatalog 
+2020-09-23 14:08:08.6436 Info rbac_Resource-select 
+2020-09-23 14:08:16.4745 Info rbac_Resource-Update 
+2020-09-23 14:08:16.9701 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 14:08:16.9901 Info sys_BillAttach-SelectPartial 
+2020-09-23 14:08:31.9221 Info rbac_Resource-Select 
+2020-09-23 14:08:35.8214 Info rbac_Resource-Update 
+2020-09-23 14:08:35.8264 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 14:08:35.8314 Info sys_BillAttach-SelectPartial 
+2020-09-23 14:08:42.7709 Info rbac_Resource-select 
+2020-09-23 14:08:44.9282 Info rbac_Resource-Insert 
+2020-09-23 14:09:32.0631 Info rbac_Resource-Insert 
+2020-09-23 14:09:32.1948 Info rbac_Resource-Update 
+2020-09-23 14:09:32.2018 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 14:09:32.2077 Info sys_BillAttach-SelectPartial 
+2020-09-23 14:09:33.6569 Info sys_Home-index 
+2020-09-23 14:09:33.7556 Info sys_Home-desktop 
+2020-09-23 14:10:19.9305 Info rbac_Resource-select 
+2020-09-23 14:10:26.8578 Info rbac_Resource-Update 
+2020-09-23 14:10:26.8628 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 14:10:26.8678 Info sys_BillAttach-SelectPartial 
+2020-09-23 14:10:30.3656 Info rbac_Resource-Update 
+2020-09-23 14:10:30.4065 Info rbac_ResourceOp-SelectPartial 
+2020-09-23 14:10:31.8194 Info sys_Home-index 
+2020-09-23 14:10:31.9251 Info sys_Home-desktop 
+2020-09-23 14:11:27.5824 Info sys_Home-index 
+2020-09-23 14:11:27.6762 Info sys_Home-desktop 
+2020-09-23 14:12:23.7629 Info blog_catalogs-Select 
+2020-09-23 14:12:30.8688 Info sys_Home-index 
+2020-09-23 14:12:37.0834 Info sys_Home-index 
+2020-09-23 14:12:37.8174 Info sys_Home-desktop 
+2020-09-23 14:12:39.4605 Info blog_catalogs-Select 
+2020-09-23 14:15:38.2192 Info sys_Home-desktop 
+2020-09-23 14:18:38.2922 Info sys_Home-desktop 
+2020-09-23 14:19:52.0736 Info sys_Home-index 
+2020-09-23 14:19:52.1598 Info sys_Home-desktop 
+2020-09-23 14:19:55.7431 Info blog_catalogs-Select 
+2020-09-23 14:20:44.6495 Info sys_Home-index 
+2020-09-23 14:20:44.7363 Info sys_Home-desktop 
+2020-09-23 14:20:45.6195 Info blog_catalogs-Select 
+2020-09-23 14:20:47.4824 Info sys_Home-index 
+2020-09-23 14:20:47.5622 Info sys_Home-desktop 
+2020-09-23 14:20:51.3695 Info blog_catalogs-Select 
+2020-09-23 14:21:01.7812 Info sys_Home-index 
+2020-09-23 14:21:01.8670 Info sys_Home-desktop 
+2020-09-23 14:21:03.0285 Info blog_catalogs-Select 
+2020-09-23 14:21:21.4266 Info sys_Home-index 
+2020-09-23 14:21:21.5154 Info sys_Home-desktop 
+2020-09-23 14:21:23.2546 Info blog_catalogs-Select 
+2020-09-23 14:21:34.6925 Info sys_Home-index 
+2020-09-23 14:21:34.7822 Info sys_Home-desktop 
+2020-09-23 14:21:35.6225 Info blog_catalogs-Select 
+2020-09-23 14:21:43.4501 Info sys_Home-index 
+2020-09-23 14:21:43.5439 Info sys_Home-desktop 
+2020-09-23 14:21:44.4428 Info blog_catalogs-Select 
+2020-09-23 14:24:43.6160 Info sys_Home-desktop 
+2020-09-23 14:27:43.6691 Info sys_Home-desktop 
+2020-09-23 14:30:43.7205 Info sys_Home-desktop 
+2020-09-23 14:33:43.7817 Info sys_Home-desktop 
+2020-09-23 14:36:43.8335 Info sys_Home-desktop 
+2020-09-23 14:37:43.6174 Info sys_Home-index 
+2020-09-23 14:37:43.7092 Info sys_Home-desktop 
+2020-09-23 14:37:44.4662 Info blog_catalogs-Select 
+2020-09-23 14:37:48.2842 Info blog_catalogs-Select 
+2020-09-23 14:38:54.0235 Info blog_catalogs-Select 
+2020-09-23 14:38:54.5642 Info blog_catalogs-Select 
+2020-09-23 14:38:55.5702 Info blog_catalogs-Select 
+2020-09-23 14:38:56.6737 Info blog_catalogs-Select 
+2020-09-23 14:40:43.7936 Info sys_Home-desktop 
+2020-09-23 14:43:43.8607 Info sys_Home-desktop 
+2020-09-23 14:45:14.2838 Info sys_Home-index 
+2020-09-23 14:45:14.4105 Info sys_Home-desktop 
+2020-09-23 14:45:15.3555 Info blog_catalogs-Select 
+2020-09-23 14:45:33.3344 Info sys_Home-index 
+2020-09-23 14:45:33.4412 Info sys_Home-desktop 
+2020-09-23 14:45:34.0630 Info blog_catalogs-Select 
+2020-09-23 14:45:44.2355 Info sys_Home-index 
+2020-09-23 14:45:44.3253 Info sys_Home-desktop 
+2020-09-23 14:45:45.5360 Info blog_catalogs-Select 
+2020-09-23 14:45:59.0011 Info sys_Home-index 
+2020-09-23 14:45:59.0908 Info sys_Home-desktop 
+2020-09-23 14:46:00.5031 Info blog_catalogs-Select 
+2020-09-23 14:46:35.2008 Info sys_Home-index 
+2020-09-23 14:46:35.9500 Info sys_Home-desktop 
+2020-09-23 14:46:39.4312 Info blog_catalogs-Select 
+2020-09-23 14:47:51.3168 Info sys_Home-index 
+2020-09-23 14:47:51.4050 Info sys_Home-desktop 
+2020-09-23 14:47:52.1201 Info blog_catalogs-Select 
+2020-09-23 14:48:20.4474 Info sys_Home-index 
+2020-09-23 14:48:21.3271 Info sys_Home-desktop 
+2020-09-23 14:48:22.5813 Info blog_catalogs-Select 
+2020-09-23 14:51:21.7914 Info sys_Home-desktop 
+2020-09-23 14:52:49.3721 Info rbac_Resource-select 
+2020-09-23 14:54:21.8630 Info sys_Home-desktop 
+2020-09-23 14:57:23.8067 Info sys_Home-desktop 
+2020-09-23 14:59:47.7114 Error 登录信息有误，无法登录
+-------------------------
+   在 rui.excptHelper.throwEx(String msg)
+   在 db.bll.loginAdminHelper.login(String userCode, String password, String orgCode, dbEntities dc) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bll\rbac\loginAdminHelper.cs:行号 56
+   在 web.Controllers.LoginController.loginAdmin(String tbxUserName, String tbxPassword, String orgCode) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\webSite\Controllers\LoginController.cs:行号 46
+-------------------------
+ 
+2020-09-23 14:59:58.5394 Error 登录信息有误，无法登录
+-------------------------
+   在 rui.excptHelper.throwEx(String msg)
+   在 db.bll.loginAdminHelper.login(String userCode, String password, String orgCode, dbEntities dc) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bll\rbac\loginAdminHelper.cs:行号 56
+   在 web.Controllers.LoginController.loginAdmin(String tbxUserName, String tbxPassword, String orgCode) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\webSite\Controllers\LoginController.cs:行号 46
+-------------------------
+ 
+2020-09-23 15:00:36.8754 Error 登录信息有误，无法登录
+-------------------------
+   在 rui.excptHelper.throwEx(String msg)
+   在 db.bll.loginAdminHelper.login(String userCode, String password, String orgCode, dbEntities dc) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bll\rbac\loginAdminHelper.cs:行号 56
+   在 web.Controllers.LoginController.loginAdmin(String tbxUserName, String tbxPassword, String orgCode) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\webSite\Controllers\LoginController.cs:行号 46
+-------------------------
+ 
+2020-09-23 15:00:38.9177 Error 登录信息有误，无法登录
+-------------------------
+   在 rui.excptHelper.throwEx(String msg)
+   在 db.bll.loginAdminHelper.login(String userCode, String password, String orgCode, dbEntities dc) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bll\rbac\loginAdminHelper.cs:行号 56
+   在 web.Controllers.LoginController.loginAdmin(String tbxUserName, String tbxPassword, String orgCode) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\webSite\Controllers\LoginController.cs:行号 46
+-------------------------
+ 
+2020-09-23 15:00:40.5587 Error 登录信息有误，无法登录
+-------------------------
+   在 rui.excptHelper.throwEx(String msg)
+   在 db.bll.loginAdminHelper.login(String userCode, String password, String orgCode, dbEntities dc) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bll\rbac\loginAdminHelper.cs:行号 56
+   在 web.Controllers.LoginController.loginAdmin(String tbxUserName, String tbxPassword, String orgCode) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\webSite\Controllers\LoginController.cs:行号 46
+-------------------------
+ 
+2020-09-23 15:02:23.6883 Error 登录信息有误，无法登录
+-------------------------
+   在 rui.excptHelper.throwEx(String msg)
+   在 db.bll.loginAdminHelper.login(String userCode, String password, String orgCode, dbEntities dc) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bll\rbac\loginAdminHelper.cs:行号 56
+   在 web.Controllers.LoginController.loginAdmin(String tbxUserName, String tbxPassword, String orgCode) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\webSite\Controllers\LoginController.cs:行号 46
+-------------------------
+ 
+2020-09-23 15:02:26.1323 Error 登录信息有误，无法登录
+-------------------------
+   在 rui.excptHelper.throwEx(String msg)
+   在 db.bll.loginAdminHelper.login(String userCode, String password, String orgCode, dbEntities dc) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bll\rbac\loginAdminHelper.cs:行号 56
+   在 web.Controllers.LoginController.loginAdmin(String tbxUserName, String tbxPassword, String orgCode) 位置 c:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\webSite\Controllers\LoginController.cs:行号 46
+-------------------------
+ 
+2020-09-23 15:03:57.5705 Info sys_Home-index 
+2020-09-23 15:03:58.2761 Info sys_Home-desktop 
+2020-09-23 15:03:59.9779 Info blog_catalogs-Select 
+2020-09-23 15:04:04.8116 Info blog_blog-CatalogAdd 
+2020-09-23 15:04:05.7845 Info blog_blog-Config 
+2020-09-23 15:04:07.3061 Info blog_blog-CatalogAdd 
+2020-09-23 15:04:08.7472 Info rbac_Resource-select 
+2020-09-23 15:04:10.4902 Info rbac_Module-select 
+2020-09-23 15:06:58.6906 Info sys_Home-desktop 
+2020-09-23 15:09:58.8086 Info sys_Home-desktop 
+2020-09-23 15:10:20.9571 Info sys_Home-index 
+2020-09-23 15:10:21.0618 Info sys_Home-desktop 
+2020-09-23 15:10:22.4343 Info blog_catalogs-Select 
+2020-09-23 15:14:55.1872 Info sys_Home-index 
+2020-09-23 15:14:56.0047 Info sys_Home-desktop 
+2020-09-23 15:14:57.2450 Info blog_catalogs-Select 
+2020-09-23 15:16:04.0743 Info sys_Home-index 
+2020-09-23 15:16:04.1651 Info sys_Home-desktop 
+2020-09-23 15:16:04.8542 Info blog_catalogs-Select 
+2020-09-23 15:17:07.4086 Info sys_Home-index 
+2020-09-23 15:17:08.1336 Info sys_Home-desktop 
+2020-09-23 15:17:09.3522 Info blog_catalogs-Select 
+2020-09-23 15:17:21.3004 Info sys_Home-index 
+2020-09-23 15:17:21.3832 Info sys_Home-desktop 
+2020-09-23 15:17:22.3627 Info blog_catalogs-Select 
+2020-09-23 15:17:36.3183 Info sys_Home-index 
+2020-09-23 15:17:37.0643 Info sys_Home-desktop 
+2020-09-23 15:17:38.1086 Info blog_catalogs-Select 
+2020-09-23 15:18:49.1781 Info sys_Home-index 
+2020-09-23 15:18:49.2759 Info sys_Home-desktop 
+2020-09-23 15:18:50.3052 Info blog_catalogs-Select 
+2020-09-23 15:18:53.6032 Info blog_blog-CatalogAdd 
+2020-09-23 15:18:57.9760 Info blog_blog-catalogadd 
+2020-09-23 15:19:00.5642 Info blog_catalogs-Select 
+2020-09-23 15:20:49.9338 Info sys_Home-index 
+2020-09-23 15:20:50.0166 Info sys_Home-desktop 
+2020-09-23 15:20:50.7342 Info blog_catalogs-Select 
+2020-09-23 15:21:04.3336 Info blog_blog-CatalogAdd 
+2020-09-23 15:21:08.1833 Info blog_blog-catalogadd 
+2020-09-23 15:21:09.7100 Info blog_catalogs-Select 
+2020-09-23 15:23:50.0836 Info sys_Home-desktop 
+2020-09-23 15:26:50.1515 Info sys_Home-desktop 
+2020-09-23 15:29:50.2077 Info sys_Home-desktop 
+2020-09-23 15:32:50.2694 Info sys_Home-desktop 
+2020-09-23 15:35:50.3184 Info sys_Home-desktop 
+2020-09-23 15:38:50.3726 Info sys_Home-desktop 
+2020-09-23 15:41:50.4206 Info sys_Home-desktop 
+2020-09-23 15:44:50.4703 Info sys_Home-desktop 
+2020-09-23 15:47:50.5314 Info sys_Home-desktop 
+2020-09-23 15:50:50.5960 Info sys_Home-desktop 
+2020-09-23 15:53:50.6512 Info sys_Home-desktop 
+2020-09-23 15:56:50.7109 Info sys_Home-desktop 
+2020-09-23 15:59:50.7622 Info sys_Home-desktop 
+2020-09-23 16:17:26.4283 Info sys_Home-index 
+2020-09-23 16:17:27.1427 Info sys_Home-desktop 
+2020-09-23 16:17:51.3534 Info blog_catalogs-Select 
+2020-09-23 20:15:25.4012 Info sys_Home-index 
+2020-09-23 20:15:26.1420 Info sys_Home-desktop 
+2020-09-23 20:15:28.2551 Info blog_catalogs-Select 
+2020-09-23 20:15:32.4994 Info blog_catalogs-Select 
+2020-09-23 20:15:34.8466 Info blog_blog-Config 
+2020-09-23 20:15:37.3177 Info blog_blog-CatalogAdd 
+2020-09-23 20:15:37.9808 Info blog_blog-Config 
+2020-09-23 20:15:38.5502 Info blog_blog-CatalogAdd 
+2020-09-23 20:15:41.0798 Info blog_blog-catalogadd 
+2020-09-23 20:15:44.1439 Info blog_catalogs-Select 
+2020-09-23 20:18:26.5601 Info sys_Home-desktop 
+2020-09-23 20:19:35.3610 Info blog_blog-Config 
+2020-09-23 20:21:26.6074 Info sys_Home-desktop 
+2020-09-23 20:24:26.6599 Info sys_Home-desktop 
+2020-09-23 20:27:26.7256 Info sys_Home-desktop 
+2020-09-23 20:30:26.8177 Info sys_Home-desktop 
+2020-09-23 20:33:26.8795 Info sys_Home-desktop 
+2020-09-23 20:36:26.9487 Info sys_Home-desktop 
+2020-09-23 20:39:27.0127 Info sys_Home-desktop 
+2020-09-23 20:42:27.0723 Info sys_Home-desktop 
