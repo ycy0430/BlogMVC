@@ -11,7 +11,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ycy博客 - 博客园</title>
+    <title>ycy0430 - 个人博客</title>
     <link type="text/css" rel="stylesheet" href="/include/index_files/blog-common.css">
     <link id="MainCss" type="text/css" rel="stylesheet" href="/include/index_files/bundle-CodingLife.css">
     <link type="text/css" rel="stylesheet" href="/include/index_files/128442.css">
@@ -34,7 +34,7 @@
                 <a id="lnkBlogLogo" href="http://wycy.site/"><img id="blogLogo" src="/include/index_files/logo.gif" alt="返回主页"></a>
 
                 <!--done-->
-                <h1><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/ycy0430/">@config.Name</a></h1>
+                <h1><a id="Header1_HeaderTitle" class="headermaintitle" href="/onlineSell/Home/Index">@config.Name</a></h1>
                 <h2>@config.Sign</h2>
 
 
@@ -46,7 +46,11 @@
                     <li><a id="blog_nav_myhome" class="menu" href="/onlineSell/Home/Index">首页</a></li>
                     @foreach (var item in listCatalog)
                     {
-                        <li><a id="blog_nav_myhome" class="menu" href="/home/blog/@item.Id">@item.Name</a></li>
+                        
+                        <li><a id="blog_nav_myhome" class="menu" href="@Url.Action("index", "Home", new { catalogid = item.Id })">@item.Name</a></li>
+                        
+                        
+                        @*<li><a id="blog_nav_myhome" class="menu" href="/onlineSell/Home/index/@item.Id">@item.Name</a></li>*@
                     }
 
 

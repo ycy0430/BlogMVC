@@ -1,8 +1,44 @@
-﻿
+﻿@model web.Models.Blog
 @{
     ViewBag.Title = "Blog";
     Layout = "~/Areas/onlineSell/Views/_LayoutPage1.cshtml";
 }
 
-<h2>Blog</h2>
+<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class="postTitle">
 
+                <a id="cb_post_title_url" class="postTitle2 vertical-middle" href="https://www.cnblogs.com/ycy0430/p/13734812.html">
+                    <span>@Model.Title</span>
+                </a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+
+                <div id="cnblogs_post_body" class="blogpost-body">
+                    @Html.Raw(Model.Content)
+                </div>
+                <div id="MySignature"></div>
+                <div class="clear"></div>
+                <div id="blog_post_info_block">
+                    <div id="blog_post_info"></div>
+                    <div class="clear"></div>
+                    <div id="post_next_prev"></div>
+                </div>
+            </div>
+            <div class="postDesc">
+                <span id="post-date">2020-09-26 13:51</span>&nbsp;
+                <a href="https://www.cnblogs.com/ycy0430/">ycy0430</a>&nbsp;
+                阅读(<span id="post_view_count">0</span>)&nbsp;
+                评论(<span id="post_comment_count">0</span>)&nbsp;
+                <a href="https://i.cnblogs.com/EditPosts.aspx?postid=13734812" rel="nofollow">编辑</a>&nbsp;
+                <a href="javascript:void(0)" onclick="AddToWz(13734812);return false;">收藏</a>
+            </div>
+        </div>
+
+
+    </div><!--end: topics 文章、评论容器-->
+</div>

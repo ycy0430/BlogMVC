@@ -195,6 +195,7 @@
     <Compile Include="uEditor\net\App_Code\NotSupportedHandler.cs" />
     <Compile Include="uEditor\net\App_Code\PathFormater.cs" />
     <Compile Include="uEditor\net\App_Code\UploadHandler.cs" />
+    <Compile Include="ViewsModels\BlogAdd.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="config\blogconfig.xml" />
@@ -813,6 +814,7 @@
     <Content Include="Areas\onlineSell\Views\Web.config" />
     <Content Include="Areas\onlineSell\Views\_LayoutPage1.cshtml" />
     <Content Include="Areas\onlineSell\Views\_SideBar.cshtml" />
+    <Content Include="Areas\admin\Views\blog_blog\BlogAdd.cshtml" />
     <None Include="Content\scripts\jquery-1.12.4.intellisense.js" />
     <Content Include="Content\scripts\jquery-1.12.4.js" />
     <Content Include="Content\scripts\jquery-1.12.4.min.js" />
