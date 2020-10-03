@@ -142,6 +142,7 @@
     <Compile Include="Models\Catalog.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="ViewsModels\BlogConfig.cs" />
+    <Compile Include="ViewsModels\BlogModify.cs" />
     <Compile Include="ViewsModels\CatalogAdd.cs" />
     <Compile Include="ViewsModels\CatalogModify.cs" />
     <Compile Include="App_Code\BlogDbContext.cs" />
@@ -601,7 +602,9 @@
     <Content Include="Content\login\showImg\1.jpg" />
     <Content Include="Content\login\showImg\12.jpg" />
     <Content Include="Content\login\showImg\2.jpg" />
-    <Content Include="Content\login\showImg\setting.xml" />
+    <Content Include="Content\login\showImg\setting.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\my97DatePicker\calendar.js" />
     <Content Include="Content\my97DatePicker\config.js" />
     <Content Include="Content\my97DatePicker\lang\en.js" />
@@ -815,6 +818,8 @@
     <Content Include="Areas\onlineSell\Views\_LayoutPage1.cshtml" />
     <Content Include="Areas\onlineSell\Views\_SideBar.cshtml" />
     <Content Include="Areas\admin\Views\blog_blog\BlogAdd.cshtml" />
+    <Content Include="Areas\admin\Views\blog_blog\CatalogModify.cshtml" />
+    <Content Include="Areas\admin\Views\blog_blog\BlogManage.cshtml" />
     <None Include="Content\scripts\jquery-1.12.4.intellisense.js" />
     <Content Include="Content\scripts\jquery-1.12.4.js" />
     <Content Include="Content\scripts\jquery-1.12.4.min.js" />

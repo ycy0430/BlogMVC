@@ -4,6 +4,8 @@
     var config = ViewBag.Config as web.ViewsModels.BlogConfig;
     var dbContext = CustomHtmlHelper.GetDbContext();
     var listCatalog = dbContext.Catalogs.ToList();
+    var listBlog = dbContext.Blogs.ToList();
+
 }
 <!DOCTYPE html>
 <html lang="zh-cn">
@@ -55,15 +57,15 @@
 
 
                     
-                        <li><a id="blog_nav_admin" class="menu" rel="nofollow" href="/">管理</a></li>
+                        <li><a id="blog_nav_admin" class="menu" rel="nofollow" href="/" target="_blank">管理</a></li>
                     
                 </ul>
                 <div class="blogStats">
 
                     <div id="blog_stats">
-                        <span id="stats_post_count">随笔 - 289&nbsp; </span>
-                        <span id="stats_article_count">文章 - 16&nbsp; </span>
-                        <span id="stats-comment_count">评论 - 176</span>
+                        <span id="stats_post_count">随笔 - 10&nbsp; </span>
+                        <span id="stats_article_count">文章 - @listBlog.Count&nbsp; </span>
+                        <span id="stats-comment_count">评论 - 20</span>
                     </div>
 
                 </div><!--end: blogStats -->
@@ -79,7 +81,6 @@
             <div id="sideBar">
                 <div id="sideBarMain">
                     @Html.Partial("~/Areas/onlineSell/Views/_SideBar.cshtml")
-                    @*@{Html.RenderPartial("~/Views/Shared/_SideBar.cshtml")}*@
                 </div><!--end: sideBarMain -->
             </div><!--end: sideBar 侧边栏容器 -->
             <div class="clear"></div>
@@ -87,7 +88,7 @@
         <div class="clear"></div>
         <div id="footer">
             <!--done-->
-            Copyright ©@DateTime.Now.Year ycy
+            <a href="https://github.com/ycy0430" target="_blank" style="color:#ccc">Copyright ©@DateTime.Now.Year ycy</a> 
         </div><!--end: footer -->
     </div><!--end: home 自定义的最大容器 -->
 </body>

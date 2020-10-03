@@ -62,16 +62,16 @@ namespace web.Areas.admin.Controllers
                 }
                 if (res > 0)
                 {
-                    return Content("添加成功");
+                    return Content(@"<script>alert('添加成功!');window.location.href=document.referrer;</script>");
                 }
                 else
                 {
-                    return Content("添加失败");
+                    return Content(@"<script>alert('添加失败!');window.location.href=document.referrer;</script>");
                 }
             }
             else
             {
-                return Content("验证失败");
+                return Content(@"<script>alert('验证失败!');window.location.href=document.referrer;</script>");
             }
         }
 
@@ -111,16 +111,16 @@ namespace web.Areas.admin.Controllers
                 }
                 if (res > 0)
                 {
-                    return Content("添加成功");
+                    return Content(@"<script>alert('添加成功!');window.location.href=document.referrer;</script>");
                 }
                 else
                 {
-                    return Content("添加失败");
+                    return Content(@"<script>alert('添加失败!');window.location.href=document.referrer;</script>");
                 }
             }
             else
             {
-                return Content("验证不通过");
+                return Content(@"<script>alert('验证不通过!');window.location.href=document.referrer;</script>");
             }
         }
 
@@ -191,6 +191,163 @@ namespace web.Areas.admin.Controllers
             hash["url"] = fileUrl;
             return Json(hash);
         }
+
+
+
+
+        [HttpGet]
+        public ActionResult CatalogManage()
+        {
+            return View();
+        }
+
+        public JsonResult LoadCatalog()
+        {
+            using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
+            {
+                var list = dbContext.Catalogs.ToList().Select(m => new { Id = m.Id, Name = m.Name, AddTime = m.AddTime }).ToList();
+                return Json(list);
+            }
+        }
+
+        [HttpGet]
+        public ActionResult CatalogModify(int id)
+        {
+            using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
+            {
+                var model = dbContext.Catalogs.FirstOrDefault(m => m.Id == id);
+                CatalogModify cm = new ViewsModels.CatalogModify();
+                cm.Id = model.Id;
+                cm.Name = model.Name;
+                return View(cm);
+            }
+        }
+
+        [HttpPost]
+        public ActionResult CatalogModify(CatalogModify model)
+        {
+            using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
+            {
+
+                var odlModel = dbContext.Catalogs.FirstOrDefault(m => m.Id == model.Id);
+                odlModel.Name = model.Name;
+                DbEntityEntry entry = dbContext.Entry(odlModel);
+                entry.State = EntityState.Modified;
+                int res = dbContext.SaveChanges();
+                if (res > 0)
+                {
+                    return Content(@"<script>alert('修改成功!');window.location.href='/admin/blog_blog/CatalogManage';</script>");
+                }
+                else
+                {
+                    return Content(@"<script>alert('修改失败!');window.location.href=document.referrer;</script>");
+                }
+            }
+        }
+
+        public ActionResult CatalogDel(int id)
+        {
+            using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
+            {
+                var odlModel = dbContext.Catalogs.FirstOrDefault(m => m.Id == id);
+                DbEntityEntry entry = dbContext.Entry(odlModel);
+                entry.State = EntityState.Deleted;
+                int res = dbContext.SaveChanges();
+                if (res > 0)
+                {
+                    return Content(@"<script>alert('删除成功!');window.location.href=document.referrer;</script>");
+                }
+                else
+                {
+                    return Content(@"<script>alert('删除失败!');window.location.href=document.referrer;</script>");
+                }
+            }
+        }
+
+
+
+
+
+
+        [HttpGet]
+        public ActionResult BlogManage()
+        {
+            return View();
+        }
+
+        public JsonResult LoadBlog()
+        {
+            using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
+            {
+                var list = dbContext.Blogs.ToList().Select(m => new { Id = m.Id, Title = m.Title, Content = m.Content, catalogId = m.catalogId }).ToList();
+                return Json(list);
+            }
+        }
+
+        [HttpGet]
+        public ActionResult BlogModify(int id)
+        {
+            using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
+            {
+                var model = dbContext.Blogs.FirstOrDefault(m => m.Id == id);
+                BlogModify cm = new ViewsModels.BlogModify();
+                cm.Id = model.Id;
+                cm.Title = model.Title;
+                cm.Content = model.Content;
+                cm.catalogId = model.catalogId;
+                return View(cm);
+            }
+        }
+
+        [HttpPost]
+        public ActionResult BlogModify(BlogModify model)
+        {
+            using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
+            {
+
+                var odlModel = dbContext.Blogs.FirstOrDefault(m => m.Id == model.Id);
+                odlModel.Title = model.Title;
+                odlModel.Content = model.Content;
+                odlModel.catalogId = model.catalogId;
+                DbEntityEntry entry = dbContext.Entry(odlModel);
+                entry.State = EntityState.Modified;
+                int res = dbContext.SaveChanges();
+                if (res > 0)
+                {
+                    return Content(@"<script>alert('修改成功!');window.location.href='/admin/blog_blog/BlogManage';</script>");
+                }
+                else
+                {
+                    return Content(@"<script>alert('修改失败!');window.location.href=document.referrer;</script>");
+                }
+            }
+        }
+
+        public ActionResult BlogDel(int id)
+        {
+            using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
+            {
+                var odlModel = dbContext.Blogs.FirstOrDefault(m => m.Id == id);
+                DbEntityEntry entry = dbContext.Entry(odlModel);
+                entry.State = EntityState.Deleted;
+                int res = dbContext.SaveChanges();
+                if (res > 0)
+                {
+                    return Content(@"<script>alert('删除成功!');window.location.href=document.referrer;</script>");
+                }
+                else
+                {
+                    return Content(@"<script>alert('删除失败!');window.location.href=document.referrer;</script>");
+                }
+            }
+        }
+
+
+
+
+
+
+
     }
     }
 
