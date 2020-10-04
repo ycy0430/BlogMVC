@@ -820,6 +820,8 @@
     <Content Include="Areas\admin\Views\blog_blog\BlogAdd.cshtml" />
     <Content Include="Areas\admin\Views\blog_blog\CatalogModify.cshtml" />
     <Content Include="Areas\admin\Views\blog_blog\BlogManage.cshtml" />
+    <Content Include="Areas\admin\Views\blog_blog\BlogModify.cshtml" />
+    <Content Include="Areas\onlineSell\Views\Home\About.cshtml" />
     <None Include="Content\scripts\jquery-1.12.4.intellisense.js" />
     <Content Include="Content\scripts\jquery-1.12.4.js" />
     <Content Include="Content\scripts\jquery-1.12.4.min.js" />
@@ -864,6 +866,10 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Areas\admin\Views\web.config" />
+    <Content Include="Include\assets\flat-ui-icons-regular.svg" />
+    <Content Include="Include\assets\live2d.js" />
+    <Content Include="Include\assets\waifu-tips.js" />
+    <Content Include="Include\assets\waifu.css" />
     <Content Include="Include\Easyui\jquery.easyui.min.js" />
     <Content Include="Include\Easyui\jquery.min.js" />
     <Content Include="Include\Easyui\locale\easyui-lang-zh_CN.js" />
@@ -1258,6 +1264,10 @@
     <Content Include="Include\kindeditor-4.1.7\themes\simple\simple.css" />
     <Content Include="Include\Scripts\bootstrap.js" />
     <Content Include="Include\Scripts\bootstrap.min.js" />
+    <Content Include="Include\assets\flat-ui-icons-regular.eot" />
+    <Content Include="Include\assets\flat-ui-icons-regular.ttf" />
+    <Content Include="Include\assets\flat-ui-icons-regular.woff" />
+    <Content Include="Include\assets\waifu-tips.json" />
     <None Include="Include\Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Include\Scripts\jquery-1.10.2.js" />
     <Content Include="Include\Scripts\jquery-1.10.2.min.js" />

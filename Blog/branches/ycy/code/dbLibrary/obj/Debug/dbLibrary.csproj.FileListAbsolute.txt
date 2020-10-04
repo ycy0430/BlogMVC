@@ -274,6 +274,7 @@ E:\新建文件夹\code\dbLibrary\bin\Debug\zh-Hans\System.Web.WebPages.Deployme
 E:\新建文件夹\code\dbLibrary\obj\Debug\dbLibrary.csprojResolveAssemblyReference.cache
 E:\新建文件夹\code\dbLibrary\obj\Debug\dbLibrary.dll
 E:\新建文件夹\code\dbLibrary\obj\Debug\dbLibrary.pdb
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\NLog.dll
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\dbLibrary.dll.config
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\dbLibrary.dll
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\dbLibrary.pdb
@@ -284,7 +285,6 @@ C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\LitJson.dll
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\NLog.dll
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\ruiLibrary.dll
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\System.Web.Mvc.dll
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\bin\Debug\System.Web.WebPages.dll

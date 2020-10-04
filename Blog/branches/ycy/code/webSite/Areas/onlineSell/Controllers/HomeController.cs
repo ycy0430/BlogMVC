@@ -21,8 +21,7 @@ namespace web.Areas.onlineSell.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            var currentLoginUser = Session["loginuser"] == null ? null : (User)Session["loginuser"];
-            ViewBag.CurrentUser = currentLoginUser;
+
             return View();
         }
 
@@ -43,5 +42,11 @@ namespace web.Areas.onlineSell.Controllers
             byte[] bytes = vc.CreateValidateGraphic(code);
             return File(bytes, @"image/jpeg");
         }
+
+        public ActionResult About()
+        {
+            return View();
+        }
+
     }
 }

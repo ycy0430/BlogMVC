@@ -285,25 +285,35 @@ namespace web.Areas.admin.Controllers
         }
 
         [HttpGet]
+        [ValidateInput(false)]
+
         public ActionResult BlogModify(int id)
         {
             using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
             {
+                List<SelectListItem> listCatalog = dbContext.Catalogs.ToList().Select(c => new SelectListItem() { Text = c.Name, Value = c.Id.ToString() }).ToList();
+                ViewBag.catalogList = listCatalog;
+                //return View();
                 var model = dbContext.Blogs.FirstOrDefault(m => m.Id == id);
-                BlogModify cm = new ViewsModels.BlogModify();
-                cm.Id = model.Id;
-                cm.Title = model.Title;
-                cm.Content = model.Content;
-                cm.catalogId = model.catalogId;
-                return View(cm);
+                BlogModify cm1 = new ViewsModels.BlogModify();
+                cm1.Id = model.Id;
+                cm1.Title = model.Title;
+                cm1.Content = model.Content;
+                cm1.catalogId = model.catalogId;
+                return View(cm1);
             }
         }
 
         [HttpPost]
+        [ValidateInput(false)]
+
         public ActionResult BlogModify(BlogModify model)
         {
             using (web.App_Code.BlogDbContext dbContext = new App_Code.BlogDbContext())
             {
+            
+                   
+             
 
                 var odlModel = dbContext.Blogs.FirstOrDefault(m => m.Id == model.Id);
                 odlModel.Title = model.Title;

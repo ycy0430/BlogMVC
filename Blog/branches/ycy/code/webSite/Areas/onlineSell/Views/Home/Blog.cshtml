@@ -3,7 +3,10 @@
     ViewBag.Title = "Blog";
     Layout = "~/Areas/onlineSell/Views/_LayoutPage1.cshtml";
 }
-
+<script>
+    console.log(document.title);   
+    document.title = '@Model.Title - 个人博客';
+</script>
 <div id="post_detail">
     <!--done-->
     <div id="topics">
