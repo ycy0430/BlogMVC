@@ -1,0 +1,47 @@
+﻿@model web.Models.Blog
+@{
+    ViewBag.Title = "Blog";
+    Layout = "~/Areas/onlineSell/Views/_LayoutPage1.cshtml";
+}
+<script>
+    console.log(document.title);   
+    document.title = '@Model.Title - 个人博客';
+</script>
+<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class="postTitle">
+
+                <a id="cb_post_title_url" class="postTitle2 vertical-middle" href="#">
+                    <span>@Model.Title</span>
+                </a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+
+                <div id="cnblogs_post_body" class="blogpost-body">
+                    @Html.Raw(Model.Content)
+                </div>
+                <div id="MySignature"></div>
+                <div class="clear"></div>
+                <div id="blog_post_info_block">
+                    <div id="blog_post_info"></div>
+                    <div class="clear"></div>
+                    <div id="post_next_prev"></div>
+                </div>
+            </div>
+            <div class="postDesc">
+                <span id="post-date">@Model.AddTime.ToString()</span>&nbsp;
+                <a href="/onlineSell/Home/Index">ycy0430</a>&nbsp;
+                阅读(<span id="post_view_count">0</span>)&nbsp;
+                评论(<span id="post_comment_count">0</span>)&nbsp;
+                <a href="#" >编辑</a>&nbsp;
+                <a href="#">收藏</a>
+            </div>
+        </div>
+
+
+    </div><!--end: topics 文章、评论容器-->
+</div>

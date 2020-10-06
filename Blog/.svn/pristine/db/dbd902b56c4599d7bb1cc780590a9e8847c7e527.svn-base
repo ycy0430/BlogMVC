@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "About";
+
+    Layout = "~/Areas/onlineSell/Views/_LayoutPage1.cshtml";}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+    关于页面
+    </div>
+</body>
+</html>

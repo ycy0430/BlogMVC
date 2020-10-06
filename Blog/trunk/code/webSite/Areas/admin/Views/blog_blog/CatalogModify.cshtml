@@ -1,0 +1,58 @@
+﻿@model web.ViewsModels.CatalogModify
+@{
+    ViewBag.Title = "CatalogAdd";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @*layui*@
+    <link href="@Url.Content("~/content/layui/css/layui.css")" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="@Url.Content("~/content/layui/layui.js")"></script>
+</head>
+<body>
+
+    <div style="width:500px;margin-top:20px">
+        @using (Html.BeginForm("catalogmodify", "blog_blog", FormMethod.Post))
+        {
+            @Html.HiddenFor(m => m.Id)
+
+            <form class="layui-form" action="" style="width:500px;">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">栏目名称</label>
+                    <div class="layui-input-block">
+                        @Html.TextBoxFor(m => m.Name, null, new { @class = "layui-input" })
+                        @Html.ValidationMessageFor(m => m.Name)
+                    </div>
+                </div>
+
+
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="submit" value="立即提交" class=" layui-btn layui-bg-blue" />
+                        @*<button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>*@
+                    </div>
+                </div>
+            </form>
+
+            <script>
+                //Demo
+                layui.use('form', function () {
+                    var form = layui.form;
+
+                    //监听提交
+                    form.on('submit(formDemo)', function (data) {
+                        layer.msg(JSON.stringify(data.field));
+                        return false;
+                    });
+                });
+            </script>
+        }
+    </div>
+
+</body>
+</html>

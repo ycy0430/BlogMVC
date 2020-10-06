@@ -1,0 +1,111 @@
+﻿@model web.ViewsModels.BlogModify
+@{
+    ViewBag.Title = "BlogModify";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @*layui*@
+    <link href="@Url.Content("~/content/layui/css/layui.css")" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="@Url.Content("~/content/layui/layui.js")"></script>
+
+    <link href="~/Include/kindeditor-4.1.7/themes/default/default.css" rel="stylesheet" />
+    <script src="~/Include/kindeditor-4.1.7/kindeditor-all.js"></script>
+    <script src="~/Include/kindeditor-4.1.7/lang/zh_CN.js"></script>
+
+    <script>
+        var editor;
+        KindEditor.ready(function (K) {
+            editor = K.create('textarea[name="Content"]', {
+                allowFileManager: true,
+                uploadJson: '/admin/blog_blog/upload'
+            });
+            K('input[name=getHtml]').click(function (e) {
+                alert(editor.html());
+            });
+            K('input[name=isEmpty]').click(function (e) {
+                alert(editor.isEmpty());
+            });
+            K('input[name=getText]').click(function (e) {
+                alert(editor.text());
+            });
+            K('input[name=selectedHtml]').click(function (e) {
+                alert(editor.selectedHtml());
+            });
+            K('input[name=setHtml]').click(function (e) {
+                editor.html('<h3>Hello KindEditor</h3>');
+            });
+            K('input[name=setText]').click(function (e) {
+                editor.text('<h3>Hello KindEditor</h3>');
+            });
+            K('input[name=insertHtml]').click(function (e) {
+                editor.insertHtml('<strong>插入HTML</strong>');
+            });
+            K('input[name=appendHtml]').click(function (e) {
+                editor.appendHtml('<strong>添加HTML</strong>');
+            });
+            K('input[name=clear]').click(function (e) {
+                editor.html('');
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div style="width:500px;margin-top:20px">
+        @using (Html.BeginForm("Blogmodify", "blog_blog", FormMethod.Post))
+        {
+            @Html.HiddenFor(m => m.Id)
+
+            <form class="layui-form" action="" style="width:650px;">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">博文标题</label>
+                    <div class="layui-input-block">
+                        @Html.TextBoxFor(m => m.Title, null, new { @class = "layui-input" })
+                        @Html.ValidationMessageFor(m => m.Title)
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">博文内容</label>
+                    <div class="layui-input-block" >
+                        @Html.TextAreaFor(m => m.Content)
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">所属分类</label>
+                    <div class="layui-input-block">
+                       @Html.DropDownListFor(m => m.catalogId, ViewBag.catalogList as List<SelectListItem>)
+                    </div>
+                </div>
+
+
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="submit" value="立即提交" class=" layui-btn layui-bg-blue" />
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+
+            <script>
+                //Demo
+                layui.use('form', function () {
+                    var form = layui.form;
+
+                    //监听提交
+                    form.on('submit(formDemo)', function (data) {
+                        layer.msg(JSON.stringify(data.field));
+                        return false;
+                    });
+                });
+            </script>
+        }
+    </div>
+
+</body>
+</html>

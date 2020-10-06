@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "BlogManage";
+}
+@*layui*@
+<link href="@Url.Content("~/content/layui/css/layui.css")" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="@Url.Content("~/content/layui/layui.js")"></script>
+
+<div data-options="region:'center'" id="tt" style="margin-top:20px;margin-left:36px">
+    <table id="dg" class="easyui-datagrid" style="width:50%;height:550px"
+           url="/blog_blog/LoadBlog"
+           toolbar="#toolbar" pagination="true"
+           rownumbers="true" fitcolumns="true" singleselect="true">
+        <thead>
+            <tr>
+                <th field="Id" width="30">ID</th>
+                <th field="Title" width="50">标题</th>
+                @*<th field="Content" width="50">内容</th>*@
+                <th field="catalogId" width="50">类别ID</th>
+                @*<th field="AddTime" width="50">添加时间</th>*@
+                <th data-options="field:'_operate',width:80,align:'center',formatter:formatOper">操作</th>
+                @*todo:内容高度会撑开行，法一：取内容前几个字符。法二：删掉内容列更简单*@
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<script type="text/javascript">
+    function formatOper(val, row, index) {
+        return '<a href="/admin/blog_blog/Blogmodify/' + row.Id + '">修改</a> <a href="javascript:if(confirm(\'确实要删除吗?\'))location=\'/blog_blog/Blogdel/' + row.Id + '\'">删除</a>';
+    }
+</script>
+
+
+

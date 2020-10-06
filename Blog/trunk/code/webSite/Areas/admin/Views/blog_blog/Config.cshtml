@@ -1,0 +1,70 @@
+﻿@model web.ViewsModels.BlogConfig
+@{
+    ViewBag.Title = "BlogConfig";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    @*layui*@
+    <link href="@Url.Content("~/content/layui/css/layui.css")" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="@Url.Content("~/content/layui/layui.js")"></script>
+</head>
+<body>
+    <div style="width:500px;margin-top:20px">
+        @using (Html.BeginForm("config", "blog_blog", FormMethod.Post))
+        {
+            <form class="layui-form" action="" style="width:500px;">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">博客名称</label>
+                    <div class="layui-input-block">
+                        @Html.TextBoxFor(m => m.Name, null, new { @class = "layui-input" })
+                        @Html.ValidationMessageFor(m => m.Name)
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">个性签名</label>
+                    <div class="layui-input-block">
+                        @Html.TextBoxFor(m => m.Sign, null, new { @class = "layui-input" })
+                        @Html.ValidationMessageFor(m => m.Sign)
+                    </div>
+                </div>
+
+                <div class="layui-form-item layui-form-text">
+                    <label class="layui-form-label">公告内容</label>
+                    <div class="layui-input-block">
+                        @Html.TextAreaFor(m => m.Notic, new { @class = "layui-textarea" })
+                        @*<textarea name="desc" placeholder="请输入内容" class="layui-textarea"></textarea>*@
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="submit" value="立即提交" class=" layui-btn layui-bg-blue" />
+                        @*<button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>*@
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </form>
+
+            <script>
+                //Demo
+                layui.use('form', function () {
+                    var form = layui.form;
+
+                    //监听提交
+                    form.on('submit(formDemo)', function (data) {
+                        layer.msg(JSON.stringify(data.field));
+                        return false;
+                    });
+                });
+            </script>
+        }
+    </div>
+
+</body>
+</html>
