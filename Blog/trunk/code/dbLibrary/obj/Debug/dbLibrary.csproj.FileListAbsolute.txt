@@ -310,3 +310,4 @@ C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\obj\Debug\dbLibrary.dll
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\obj\Debug\dbLibrary.pdb
 C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\branches\ycy\code\dbLibrary\obj\Debug\dbLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\BlogMVC\Blog\trunk\code\dbLibrary\obj\Debug\dbLibrary.csprojResolveAssemblyReference.cache
