@@ -1,0 +1,11 @@
+.li-r {
+    float: right!important;
+    margin-right: 0;
+    color: brown;
+}
+
+.gg {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #DEDEDE;
+}

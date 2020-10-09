@@ -306,6 +306,8 @@ namespace web.Areas.admin.Controllers
             }
         }
 
+
+
         [HttpPost]
         [ValidateInput(false)]
 
@@ -354,9 +356,10 @@ namespace web.Areas.admin.Controllers
             }
         }
 
-
-
-
+        public ActionResult Music()
+        {
+            return Content(@"<script>window.open=('http://changyan.kuaizhan.com/overview');</script>");
+        }
 
 
 

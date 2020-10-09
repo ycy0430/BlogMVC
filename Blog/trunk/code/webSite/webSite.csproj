@@ -819,6 +819,7 @@
     <Content Include="Areas\admin\Views\blog_blog\BlogManage.cshtml" />
     <Content Include="Areas\admin\Views\blog_blog\BlogModify.cshtml" />
     <Content Include="Areas\onlineSell\Views\Home\About.cshtml" />
+    <Content Include="Areas\admin\Views\blog_blog\Music.cshtml" />
     <None Include="Content\scripts\jquery-1.12.4.intellisense.js" />
     <Content Include="Content\scripts\jquery-1.12.4.js" />
     <Content Include="Content\scripts\jquery-1.12.4.min.js" />
