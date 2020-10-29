@@ -1,0 +1,233 @@
+﻿@{
+    var config = ViewBag.Config as web.ViewsModels.BlogConfig;
+    var dbContext = CustomHtmlHelper.GetDbContext();
+    var listBlog = dbContext.Blogs.ToList();
+}
+<!--done-->
+<div style="margin-right:0">
+    <div class="newsItem">
+        <h3 class="catListTitle">公告</h3>
+        <div class="gg">
+              <pre>@config.Notic</pre>
+            </div>
+    </div>
+
+
+    <div id="leftcontentcontainer">
+        @*<div id="blog-sidecolumn">
+            <div id="sidebar_search" class="sidebar-block">
+                <div id="sidebar_search" class="mySearch">
+                    <h3 class="catListTitle">搜索</h3>
+                    <div id="sidebar_search_box">
+                        <div id="widget_my_zzk" class="div_my_zzk" style="padding-bottom:15px;">
+                            <input id="b" class="input_my_zzk" type="text">&nbsp;<input onclick="zzk_go()" value="找找看" id="btnZzk" class="btn_my_zzk" type="button">
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+
+            <div id="sidebar_recentposts" class="sidebar-block">
+                <div class="catListEssay">
+                    <h3 class="catListTitle">最新随笔</h3>
+                    <ul>
+                        @for (int i = 1; i < listBlog.Count + 1; i++)
+                        {
+                            <li><a href="/onlineSell/Home/Blog/@listBlog[listBlog.Count - i].Id">@i.@listBlog[listBlog.Count - i].Title</a> </li>
+                            if (i >= 3)
+                            {
+                                break;
+                            }
+                        }
+
+
+                    </ul>
+                </div>
+            </div>
+
+            <table id="blogCalendar" class="Cal" cellspacing="0" cellpadding="0" title="Calendar" border="0">
+                <tbody>
+                    <tr>
+                        <td colspan="7">
+                            <table class="CalTitle" cellspacing="0" border="0">
+                                <tbody>
+                                    <tr>
+                                        <td class="CalNextPrev">
+                                            <a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2020/09/03&#39;); return false;">&lt;</a>
+                                        </td>
+                                        <td align="center">2020年10月</td>
+                                        <td align="right" class="CalNextPrev">
+                                            <a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2020/11/03&#39;); return false;">&gt;</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="CalDayHeader" align="center" abbr="日" scope="col">日</th>
+                        <th class="CalDayHeader" align="center" abbr="一" scope="col">一</th>
+                        <th class="CalDayHeader" align="center" abbr="二" scope="col">二</th>
+                        <th class="CalDayHeader" align="center" abbr="三" scope="col">三</th>
+                        <th class="CalDayHeader" align="center" abbr="四" scope="col">四</th>
+                        <th class="CalDayHeader" align="center" abbr="五" scope="col">五</th>
+                        <th class="CalDayHeader" align="center" abbr="六" scope="col">六</th>
+                    </tr>
+                    <tr>
+                        <td class="CalOtherMonthDay" align="center">27</td>
+                        <td class="CalOtherMonthDay" align="center">28</td>
+                        <td class="CalOtherMonthDay" align="center">29</td>
+                        <td class="CalOtherMonthDay" align="center">30</td>
+                        <td class="" align="center">
+                            1
+                        </td>
+                        <td class="" align="center">
+                            2
+                        </td>
+                        <td class="CalTodayDay" align="center">
+                            3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="CalWeekendDay" align="center">
+                            4
+                        </td>
+                        <td class="" align="center">
+                            5
+                        </td>
+                        <td class="" align="center">
+                            6
+                        </td>
+                        <td class="" align="center">
+                            7
+                        </td>
+                        <td class="" align="center">
+                            8
+                        </td>
+                        <td class="" align="center">
+                            9
+                        </td>
+                        <td class="CalWeekendDay" align="center">
+                            10
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="CalWeekendDay" align="center">
+                            11
+                        </td>
+                        <td class="" align="center">
+                            12
+                        </td>
+                        <td class="" align="center">
+                            13
+                        </td>
+                        <td class="" align="center">
+                            14
+                        </td>
+                        <td class="" align="center">
+                            15
+                        </td>
+                        <td class="" align="center">
+                            16
+                        </td>
+                        <td class="CalWeekendDay" align="center">
+                            17
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="CalWeekendDay" align="center">
+                            18
+                        </td>
+                        <td class="" align="center">
+                            19
+                        </td>
+                        <td class="" align="center">
+                            20
+                        </td>
+                        <td class="" align="center">
+                            21
+                        </td>
+                        <td class="" align="center">
+                            22
+                        </td>
+                        <td class="" align="center">
+                            23
+                        </td>
+                        <td class="CalWeekendDay" align="center">
+                            24
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="CalWeekendDay" align="center">
+                            25
+                        </td>
+                        <td class="" align="center">
+                            26
+                        </td>
+                        <td class="" align="center">
+                            27
+                        </td>
+                        <td class="" align="center">
+                            28
+                        </td>
+                        <td class="" align="center">
+                            29
+                        </td>
+                        <td class="" align="center">
+                            30
+                        </td>
+                        <td class="CalWeekendDay" align="center">
+                            31
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="CalOtherMonthDay" align="center">
+                            1
+                        </td>
+                        <td class="CalOtherMonthDay" align="center">
+                            2
+                        </td>
+                        <td class="CalOtherMonthDay" align="center">
+                            3
+                        </td>
+                        <td class="CalOtherMonthDay" align="center">
+                            4
+                        </td>
+                        <td class="CalOtherMonthDay" align="center">
+                            5
+                        </td>
+                        <td class="CalOtherMonthDay" align="center">
+                            6
+                        </td>
+                        <td class="CalOtherMonthDay" align="center">
+                            7
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script>loadBlogDefaultCalendar();</script>
+
+
+        <div id="sidebar_topviewedposts" class="sidebar-block">
+            <div id="topview_posts_wrap">
+                <div class="catListView">
+                    <h3 class="catListTitle">阅读排行榜</h3>
+                    <div id="TopViewPostsBlock"><ul><li><a href="http://wycy.site/posts/46667/">1. 初识HTTP</a></li><li><a href="http://wycy.site/posts/45468/">2. 【HTML+CSS】高仿百度首页</a></li></ul></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="sidebar_topdiggedposts" class="sidebar-block">
+            <div id="topdigg_posts_wrap">
+                <div class="catListView">
+                    <h3 class="catListTitle">推荐排行榜</h3>
+                    <div id="TopDiggPostsBlock"><ul><li><a href="http://wycy.site/posts/57655/">1. 流式布局案例-移动端京东首页</a></li><li><a href="http://wycy.site/posts/18448/">2. rem布局+less 两种方式制作苏宁移动端首页</a></li></ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">loadBlogSideColumn();</script>
+</div>

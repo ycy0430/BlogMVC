@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script>
+        function open_win() {
+            window.open("http://www.w3school.com.cn")
+        }
+    </script>
+</head>
+<body>
+   
+</body>
+</html>

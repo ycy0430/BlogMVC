@@ -1,0 +1,68 @@
+﻿@model web.Models.Blog
+@{
+    ViewBag.Title = "Blog";
+    Layout = "~/Areas/onlineSell/Views/_LayoutPage1.cshtml";
+}
+<script>
+    console.log(document.title);   
+    document.title = '@Model.Title - 个人博客';
+</script>
+<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class="postTitle">
+
+                <a id="cb_post_title_url" class="postTitle2 vertical-middle" href="#">
+                    <span>@Model.Title</span>
+                </a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+
+                <div id="cnblogs_post_body" class="blogpost-body">
+                    @Html.Raw(Model.Content)
+                </div>
+
+                <div id="cyReward" role="cylabs" data-use="reward"></div>
+
+
+
+                <div id="MySignature"></div>
+                <div class="clear"></div>
+                <div id="blog_post_info_block">
+                    <div id="blog_post_info"></div>
+                    <div class="clear"></div>
+                    <div id="post_next_prev"></div>
+                </div>
+            </div>
+            <div class="postDesc">
+                <span id="post-date">@Model.AddTime.ToString()</span>&nbsp;
+                <a href="/onlineSell/Home/Index">ycy0430</a>&nbsp;
+                参与(<a href="#SOHUCS" id="changyan_parti_unit"></a>)&nbsp;
+                评论(<a href="#SOHUCS" id="changyan_count_unit"></a>)&nbsp;
+                <script type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/plugins/plugins.count.js">
+                </script>
+
+
+
+                <a href="#" >编辑</a>&nbsp;
+                <a href="#">收藏</a>
+            </div>
+            <!--PC版-->
+            <div id="SOHUCS" sid="@Model.Id"></div>
+            <script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js"></script>
+            <script type="text/javascript">
+                window.changyan.api.config({
+                    appid: 'cyv5WfgcJ',
+                    conf: 'prod_92611548af68a14ac1f360c3d679ee5d'
+                });
+            </script>
+        </div>
+
+
+        <script type="text/javascript" charset="utf-8" src="https://cy-cdn.kuaizhan.com/js/lib/jquery.js"></script>
+        <script type="text/javascript" charset="utf-8" src="https://cy-cdn.kuaizhan.com/js/changyan.labs.https.js?appid=cyv5WfgcJ"></script>
+    </div><!--end: topics 文章、评论容器-->
+</div>

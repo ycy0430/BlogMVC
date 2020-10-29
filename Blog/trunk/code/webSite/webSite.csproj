@@ -130,6 +130,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\images\source\" />
+    <Folder Include="uEditor\net\upload\image\20180420\" />
+    <Folder Include="uEditor\net\upload\image\20180421\" />
+    <Folder Include="uEditor\net\upload\image\20180503\" />
+    <Folder Include="uEditor\net\upload\image\20180829\" />
     <Folder Include="uEditor\upload\" />
     <Folder Include="upload\bill\rbac_Resource\2019\2\" />
     <Folder Include="upload\bill\rbac_Resource\2019\3\" />
@@ -213,6 +217,7 @@
     <Content Include="Content\chosen\jquery.chosen.js" />
     <Content Include="Content\css\rui.index.css" />
     <Content Include="Content\css\rui.layout.css" />
+    <Content Include="Content\css\ycy.css" />
     <Content Include="Content\easyui\bootstrap\accordion.css" />
     <Content Include="Content\easyui\bootstrap\calendar.css" />
     <Content Include="Content\easyui\bootstrap\combo.css" />
@@ -347,7 +352,6 @@
     <Content Include="Content\easyui\icons\tip.png" />
     <Content Include="Content\easyui\icons\undo.png" />
     <Content Include="Content\easyui\jquery.easyui.js" />
-    <Content Include="Content\easyui\readme.txt" />
     <Content Include="Content\fontawesome\css\font-awesome.css" />
     <Content Include="Content\fontawesome\css\font-awesome.min.css" />
     <Content Include="Content\fontawesome\css\rui.button.css" />
@@ -599,19 +603,18 @@
     <Content Include="Content\login\image\login_workshop_bg.png" />
     <Content Include="Content\login\image\yinfeilogoforLogin.png" />
     <Content Include="Content\login\rui.login.css" />
-    <Content Include="Content\login\showImg\1.jpg" />
     <Content Include="Content\login\showImg\12.jpg" />
     <Content Include="Content\login\showImg\2.jpg" />
     <Content Include="Content\login\showImg\setting.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Content\login\showImg\ycy.jpg" />
     <Content Include="Content\my97DatePicker\calendar.js" />
     <Content Include="Content\my97DatePicker\config.js" />
     <Content Include="Content\my97DatePicker\lang\en.js" />
     <Content Include="Content\my97DatePicker\lang\zh-cn.js" />
     <Content Include="Content\my97DatePicker\lang\zh-tw.js" />
     <Content Include="Content\my97DatePicker\My97DatePicker.htm" />
-    <Content Include="Content\my97DatePicker\readme.txt" />
     <Content Include="Content\my97DatePicker\skin\datePicker.gif" />
     <Content Include="Content\my97DatePicker\skin\default\datepicker.css" />
     <Content Include="Content\my97DatePicker\skin\default\img.gif" />
@@ -1442,10 +1445,6 @@
     <Content Include="uEditor\lang\zh-cn\zh-cn.js" />
     <Content Include="uEditor\net\Bin\Newtonsoft.Json.dll" />
     <Content Include="uEditor\net\net.sln" />
-    <Content Include="uEditor\net\upload\image\20180420\6365984282205821537452987.jpg" />
-    <Content Include="uEditor\net\upload\image\20180421\6365991012445663425761742.jpg" />
-    <Content Include="uEditor\net\upload\image\20180503\6366096143182439379865454.jpg" />
-    <Content Include="uEditor\net\upload\image\20180829\6367114571651958292740765.png" />
     <Content Include="uEditor\themes\default\css\ueditor.css" />
     <Content Include="uEditor\themes\default\css\ueditor.min.css" />
     <Content Include="uEditor\themes\default\dialogbase.css" />
@@ -1590,6 +1589,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\weixin\test.cshtml" />
     <Content Include="Include\Scripts\jquery-1.10.2.min.map" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap\css\bootstrap-theme.css.map" />
